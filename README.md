@@ -1,7 +1,19 @@
 # hello-vue-tsx
 
-## Getting started
+An example of [Vue](https://vuejs.org/) that encorporates TypeScript and tsx in favor of JSX. Bundled with [FuseBox](fuse-box.org)
 
-`npm i` or `yarn`
+## Installing Dependencies
 
-`npm start` to run build and run application
+`npm i`
+
+## Running
+
+`npm start`
+
+Or to run production build
+
+`npm start-prod`
+
+## Just Building
+
+`npm build-prod`
