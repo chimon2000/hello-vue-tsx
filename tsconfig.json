@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "jsx": "preserve",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    }
+}

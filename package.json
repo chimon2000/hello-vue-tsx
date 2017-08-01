@@ -1,0 +1,35 @@
+{
+  "name": "hello-vue-tsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fuse.js",
+  "scripts": {
+    "start": "npm-run-all build",
+    "start-prod": "cross-env-shell NODE_ENV=production npm-run-all build",
+    "clean": "rimraf dist",
+    "build": "npm-run-all clean fuse",
+    "build-prod": "cross-env-shell  NODE_ENV=production BUILD_ONLY=true npm-run-all build",
+    "fuse": "node fuse",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.4.2",
+    "vue-class-component": "^5.0.2",
+    "vue-property-decorator": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-jsx-v-model": "^1.0.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-latest": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "fuse-box": "^2.2.1",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.4.2",
+    "uglify-js": "^3.0.27"
+  }
+}
